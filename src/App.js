@@ -3,10 +3,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
-  );
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+
+  
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    );
+
 }
 
 export default App;
