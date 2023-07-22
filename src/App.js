@@ -1,19 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+
+import Home from './components/Home'
 
 function App() {
   return (
-      <Router>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-
-  
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-    );
-
+    <div className='App'>
+      <Home />
+    </div>
+  )
 }
 
-export default App;
+export default App
