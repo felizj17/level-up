@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
+import Home from './components/Home';
+import './App.css';
 
 // API Assignments for Axios
 import axios from 'axios';
@@ -41,10 +40,11 @@ function App() {
 
 
   return (
-    <div className="App">
-
+    <div className='App'>
+      <Home />
     </div>
-  );
+  )
 }
 
-export default App;
+
+export default App
