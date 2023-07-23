@@ -2,7 +2,6 @@ import { useState } from "react"
 function Quiz(){
 
 const[toggle, setToggle]=useState(false)
-// const[toggle2, setToggle2]=useState(false)
 
 
   const [formValues, setFormValues] = useState({
@@ -19,11 +18,8 @@ const[toggle, setToggle]=useState(false)
   const handleSubmission = (event) => {
     event.preventDefault();
     setToggle(true)
-    // Process the form data as needed
     console.log('Form values:', formValues);
   };
-
-
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -191,7 +187,7 @@ const[toggle, setToggle]=useState(false)
               onChange={handleChange}
 
             ></input>
-            <label htmlFor="save">o save money for retirement</label>
+            <label htmlFor="save">To save money for retirement</label>
           </div>
         </fieldset>
 
@@ -418,33 +414,6 @@ const[toggle, setToggle]=useState(false)
 
         <input type="submit" />
       </form>
-{/* 
-<p><strong>What percentage of your income should you aim to save each month for emergencies and future goals?</strong></p>
-      {toggle ? <div>{formValues.emergency==="correct" ? <p>✅ ANSWER: 20%</p>: <p>❌ ANSWER: 20%</p>}</div>: <p>Please Answer Questions to See Results</p>}
-
-      <p><strong>What is a budget?</strong></p>
-      {toggle ? <div>{formValues.budget==="correct" ? <p>✅ ANSWER: A plan for spending and saving money </p>: <p>❌ ANSWER:A plan for spending and saving money</p>}</div>: <p>Please Answer Questions to See Results</p>}
-      <p><strong>What is the purpose of having a checking account?</strong></p>
-
-
-      {toggle ? <div>{formValues.checkingAccount==="correct" ? <p>✅ ANSWER: To store and manage your day-to-day finances </p>: <p>❌ ANSWER:A plan for spending and saving money</p>}</div>: <p>Please Answer Questions to See Results</p>}
-
-
-<p><strong>What is the 50-30-20 budgeting rule?</strong></p>
-      {toggle ? <div>{formValues.allocating==="correct" ? <p>✅ ANSWER: It's a guideline to allocate 50% of your income to essentials, 30% to wants, and 20% to savings and debt repayment. </p>: <p>❌ ANSWER:It's a guideline to allocate 50% of your income to essentials, 30% to wants, and 20% to savings and debt repayment.</p>}</div>: <p>Please Answer Questions to See Results</p>}
-
-
-      <p><strong>What is the maximum annual contribution limit for a Traditional IRA in 2023?</strong></p>
-      {toggle ? <div>{formValues.creditScore==="correct" ? <p>✅ ANSWER: $7,000</p>: <p>❌ ANSWER:$7,000</p>}</div>: <p>Please Answer Questions to See Results</p>}
-
-      <p><strong>What is a credit score, and how is it typically measured?</strong></p>
-      {toggle ? <div>{formValues.IRAcontributionLIMIT==="correct" ? <p>✅ ANSWER: A numerical representation of an individual's creditworthiness, typically ranging from 300 to 850</p>: <p>❌ ANSWER: A numerical representation of an individual's creditworthiness, typically ranging from 300 to 850</p>}</div>: <p>Please Answer Questions to See Results</p>}
-
-      <p><strong>True or False: In New York City, individuals with low to moderate incomes can access free financial counseling services through the NYC Financial Empowerment Centers.</strong></p>
-      {toggle ? <div>{formValues.financialEmpowerment==="correct" ? <p>✅ ANSWER: True</p>: <p>❌ ANSWER: True</p>}</div>: <p>Please Answer Questions to See Results</p>}
-
- */}
-
     </div>
 )}
 

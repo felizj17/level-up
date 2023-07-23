@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import './modal.css';
+import '../css/modal.css';
 export default function Modal({ handleDelete, handleClose, snack }) {
   const ref = useRef();
   useEffect(() => {
