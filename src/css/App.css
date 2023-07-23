@@ -28,11 +28,7 @@ input[type=submit]:hover {
 
 .edit {
   background-color: rgba(254, 254, 254, 0.142);
-}
-
   background-color: #1f6a2d2e;
-
-
 }
 
 .hardQuestions:hover {
@@ -65,16 +61,3 @@ select:hover {
   background-color: rgb(77, 128, 0);
 }
 
-  text-align: left;
-  font-size: medium;
-  border: solid;
-  border-radius: 10px;
-  padding: 10px;
-  margin: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0000001e;
-  color: rgb(0, 0, 0);
-  /* margin-left: 50px;
-  margin-right: 1000px; */
-  margin: 50px;
-}
