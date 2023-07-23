@@ -5,7 +5,6 @@ export default function Nav(){
         <nav>
             <p>Empowerment Centers</p>
             <p>Quizes</p>
-            <p>Grades</p>
         </nav>
     )
 }
