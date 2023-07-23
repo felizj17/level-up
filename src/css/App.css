@@ -7,7 +7,7 @@ input[type=radio] {
   box-sizing: border-box;
   background-color: #391545df;
   color: whitesmoke;
-  text-align:left;
+  text-align: left;
 }
 
 input[type=submit] {
@@ -17,7 +17,7 @@ input[type=submit] {
   margin: 8px 0;
   border: none;
   border-radius: 4px;
-  cursor: pointer;  
+
   background-color: purple;
 }
 
@@ -26,57 +26,55 @@ input[type=submit]:hover {
 }
 
 
-.edit{  background-color: rgba(254, 254, 254, 0.142);
+.edit {
+  background-color: rgba(254, 254, 254, 0.142);
 }
-
-.easyQuestions:hover{
 
   background-color: #1f6a2d2e;
 
 
 }
 
-.hardQuestions:hover{
+.hardQuestions:hover {
   background-color: #ffff002e;
 
 }
 
-select{ width: 100%;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;  
-  
-  background-color: purple;
-
-}
-
-select:hover{
+select {
   width: 100%;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
-  cursor: pointer;  
-  
+  cursor: pointer;
+
+  background-color: purple;
+
+}
+
+select:hover {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
   background-color: rgb(77, 128, 0);
 }
 
-.cardContact{
   text-align: left;
   font-size: medium;
   border: solid;
   border-radius: 10px;
   padding: 10px;
   margin: auto;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #0000001e;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   /* margin-left: 50px;
   margin-right: 1000px; */
-  margin:50px;
+  margin: 50px;
 }
-
