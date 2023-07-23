@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Centers from './Centers'
+import Quiz from './Quiz'
 import '../css/home.css'
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
             <p>feel free to redisgn these</p>
           </aside>
         </section>
+        <Centers />
+        <Quiz />
       </main>
       <Footer />
     </div>
