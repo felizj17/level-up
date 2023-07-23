@@ -30,14 +30,12 @@ input[type=submit]:hover {
   background-color: rgba(254, 254, 254, 0.142);
 }
 
+.easyQuestions:hover{
   background-color: #1f6a2d2e;
-
-
 }
 
 .hardQuestions:hover {
   background-color: #ffff002e;
-
 }
 
 select {
@@ -65,6 +63,7 @@ select:hover {
   background-color: rgb(77, 128, 0);
 }
 
+.cardContact{
   text-align: left;
   font-size: medium;
   border: solid;
