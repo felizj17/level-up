@@ -2,6 +2,7 @@
     text-align: center;
 }
 
+
 header img {
     object-fit: cover;
     width: 100%;
@@ -10,6 +11,21 @@ header img {
     left: 0;
     top: 0;
 }
+
+nav h1{
+    color:black;
+    margin-right:40%;
+    font-size: large;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(53, 81, 241, 0.4);
+  }
 
 .header {
     position: relative;
@@ -34,16 +50,17 @@ h2 {
     -webkit-text-stroke: 0.17px white;
 }
 
-nav p {
+.nav-link {
     color: white;
+    margin:16px 0;
 }
 
-nav p:hover {
+.nav-link:hover {
     color: rgb(78, 78, 168);
     
 }
 
-nav p:focus {
+.nav-link:focus {
     color: rgb(78, 78, 168);
 }
 
@@ -52,7 +69,7 @@ nav p:focus {
     flex-direction: column;
     padding-top: 40vh;
     transform: translateY(-25%);
-   
+
 }
 
 nav {

@@ -1,31 +1,31 @@
-import { useState, useEffect } from 'react';
-import Center from './Center';
+import {useState, useEffect} from 'react'
+import Center from './Center'
 
 // API Assignments for Axios
-import axios from 'axios';
-const API_KEY = process.env.APP_TOKEN;
-axios.defaults.headers.common['Authorization'] = API_KEY;
-const API_FIN = process.env.REACT_APP_API_FINANCIAL_EMPOWERMENT;
-
+import axios from 'axios'
+const API_KEY = process.env.APP_TOKEN
+axios.defaults.headers.common['Authorization'] = API_KEY
+const API_FIN = process.env.REACT_APP_API_FINANCIAL_EMPOWERMENT
 
 export default function Centers() {
+  const [finPosts, setFinPosts] = useState([])
 
-    const [finPosts, setFinPosts] = useState([]);
+  useEffect(() => {
+    // Financial Empowerment Get
+    axios
+      .get(API_FIN)
+      .then(response => {
+        setFinPosts(response.data)
+        // console.log(response.data)
+      })
+      .catch(error => {
+        console.error(error)
+      })
+  }, [])
 
-    useEffect(() => {
-        // Financial Empowerment Get
-        axios.get(API_FIN)
-            .then(response => {
-                setFinPosts(response.data);
-                // console.log(response.data)
-            })
-            .catch(error => {
-                console.error(error);
-            });
-    }, []);
-
-    return (
-        <div className='centers'>
+  return (
+    <div className='centers'>
+      <h3>List of Locations</h3>
       <section>
         <table>
           <thead>
@@ -39,12 +39,12 @@ export default function Centers() {
             </tr>
           </thead>
           <tbody className=''>
-            {finPosts.map((center) => {
-              return <Center key={center.building} center={center} />;
+            {finPosts.map(center => {
+              return <Center key={center.building} center={center} />
             })}
           </tbody>
         </table>
       </section>
     </div>
- )
+  )
 }

@@ -1,13 +1,4 @@
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(53, 81, 241, 0.4);
-  opacity: 0.5;
-}
+
 footer {
   position: relative;
   bottom: 0;
@@ -26,9 +17,9 @@ footer {
   grid-column-end: 5;
 }
 .index {
-  background-color: orangered;
+  background-color: rgba(173, 173, 249,.3);
   width: 80%;
-  height: 50vh;
+  height: fit-content;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vh;
