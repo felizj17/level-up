@@ -1,12 +1,17 @@
 import React from 'react'
 import Nav from './Nav'
-import image from '../assets/nycbaby.jpg'
+import image from '../assets/nycbaby.svg'
 import '../css/header.css'
 
 export default function Header(){
     return (
-        <header>
+        <header className='header'>
             <img src={image} />
+            <div className='text'>
+            <h2> Better New Yorks For A Better New York </h2>
+            <p className='subheader'> Financial literacy & resources that aid in personal growth in order to achieve freedomm and stability </p>
+            </div>
+            <br />
             <Nav/>
         </header>
     )
