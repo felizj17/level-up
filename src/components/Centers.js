@@ -31,7 +31,7 @@ export default function Centers() {
           <thead>
             <tr style={{background: 'rgb(245, 222, 179, 0.5)'}}>
               <th>Borough</th>
-              <th>Organization</th>
+              <th>Provider</th>
               <th>Street Address</th>
               <th>Days Open</th>
               <th>Hours of Operation</th>
