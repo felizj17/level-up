@@ -8,7 +8,7 @@ export default function Header(){
         <header className='header'>
             <img src={image} />
             <div className='text'>
-            <h2> Better New Yorks For A Better New York </h2>
+            <h2> Better New Yorkers For A Better New York </h2>
             <p className='subheader'> Financial literacy & resources that aid in personal growth in order to achieve freedomm and stability </p>
             </div>
             <br />

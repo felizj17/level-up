@@ -22,11 +22,16 @@ header img {
 h2 {
     z-index: 100;
     color: rgb(78, 78, 168);
+    font-size: 44px;
+    -webkit-text-stroke: 0.47px white;
+    
 }
 
 .subheader {
     z-index: 100;
-    color: rgb(78, 78, 168);
+    color: rgb(173, 173, 249);
+    font-size: 22px;
+    -webkit-text-stroke: 0.17px white;
 }
 
 nav p {
@@ -47,6 +52,7 @@ nav p:focus {
     flex-direction: column;
     padding-top: 40vh;
     transform: translateY(-25%);
+   
 }
 
 nav {
