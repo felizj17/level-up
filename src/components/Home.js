@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import './home.css'
+import '../css/home.css'
 
 export default function Home() {
   return (
