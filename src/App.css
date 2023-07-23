@@ -1,3 +1,147 @@
-.App {
-  
+
+/* .App {
+  text-align: center;
 }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+input[type=radio] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #555555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #391545df;
+  color: whitesmoke;
+  text-align:left;
+}
+
+/* input[type=radio]:hover {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #555555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #391545df;
+  color: whitesmoke;
+  text-align:left;
+} */
+
+
+
+input[type=submit] {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  
+  background-color: purple;
+
+}
+
+input[type=submit]:hover {
+  background-color: #98589a;
+}
+
+
+.edit{  background-color: rgba(254, 254, 254, 0.142);
+}
+
+/* fieldset:hover{
+
+  background-color: #681f6a2e;
+} */
+
+.easyQuestions:hover{
+
+  background-color: #1f6a2d2e;
+
+
+}
+
+.hardQuestions:hover{
+  background-color: #ffff002e;
+
+}
+
+select{ width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  
+  background-color: purple;
+
+}
+
+select:hover{
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  
+  background-color: rgb(77, 128, 0);
+}
+
+
+
+.cardContact{
+  text-align: left;
+  font-size: medium;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0000001e;
+  color:rgb(0, 0, 0);
+  /* margin-left: 50px;
+  margin-right: 1000px; */
+  margin:50px;
+}
+
