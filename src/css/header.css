@@ -45,9 +45,9 @@ h2 {
 
 .subheader {
     z-index: 100;
-    color: white;
-    font-size: 27px;
-    -webkit-text-stroke: 0.57px black;
+    color: rgb(173, 173, 249);
+    font-size: 22px;
+    -webkit-text-stroke: 0.17px white;
 }
 
 .nav-link {
