@@ -45,7 +45,7 @@ h2 {
 
 .subheader {
     z-index: 100;
-    color: rgb(173, 173, 249);
+    color: white;
     font-size: 22px;
     -webkit-text-stroke: 0.17px white;
 }
