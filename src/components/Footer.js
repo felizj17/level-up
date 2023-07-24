@@ -1,24 +1,16 @@
 import React from 'react'
-//import {Link} from 'react-router-dom'
 
 export default function Footer() {
   return (
     <footer>
         {/* <h3 >Outside Resources</h3> */}
       <div className='left-side'>
-        {/*  */}
-        {/* <p>Resource Link</p>
-        <p>Resource Link</p>
-        <p>Resource Link</p>
-        <p>Resource Link</p> */}
+      <a href='https://www.nyc.gov/site/mopd/resources/social-services-benefits.page'>NYC Social Services & Benefits</a>
       </div>
       <div className='right-side'>
-        {/*  */}
-        {/* <p>Resource Link</p>
-        <p>Resource Link</p>
-        <p>Resource Link</p>
-        <p>Resource Link</p> */}
+      <a href='https://www.nyc.gov/site/dca/consumers/get-free-financial-counseling.page'>Free Financial Counseling</a>
       </div>
+      <br/>
     </footer>
   )
 }
